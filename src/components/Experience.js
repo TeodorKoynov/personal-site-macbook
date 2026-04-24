@@ -16,7 +16,7 @@ import {Stars} from "@/components/Stars";
 
 
 const Experience = () => {
-    const macbook = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf');
+    const macbook = useGLTF('/models/macbook/model.gltf');
 
     const textRef = useRef();
 
